@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+   margin-top: 17px;
+   margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sing {
+    background-color: #6fbf44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1PX;
+    color: white;
+    cursor: pointer;
+    border: solid #4CB538
+}
+
+.img-logo {
+   margin-top: 70px;
+   margin-left: 123px;
+   display: inline-block;
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 493px;
+
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700px;
+    line-height: 82px;
+    letter-spacing: 0.5px;
+    color: #161a49;
+   
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+   
+    color: #4b505a;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button-learn {
+   
+    line-height: 27px;
+    font-weight: 500px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    background:transparent;
+    color: #4CB538;
+    margin-bottom: 47px;
+
+}
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+    .button-sing {
+        display: block;
+        margin: 23px 25px 76px 260px;
+    }
+    .img-logo {
+        display: block;
+        position: absolute;
+        margin: 400px 50px 22px 50px;
+        width: 380px;
+        height: 340px;
+    }
+    
+    section {
+        display: block;
+    }
+       
+    h1 {
+       
+        font-size: 35px;
+        line-height: 40px;
+        width: 288px;
+        height: 75px;
+        text-align: center;
+    }
+    
+    p {
+       
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+    }
+
+    .button-learn {
+        display: block;
+        margin: 0 100px 0 100px;
+        width: 112px;
+        height: 27px;
+        font-weight: 500px;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+    }
+
+
+
+    }
+
+    
